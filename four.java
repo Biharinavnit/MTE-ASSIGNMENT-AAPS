@@ -6,7 +6,7 @@ public class four {
             return -1;
         }
 
-        // Compute sum of first window of size k
+      
         int windowSum = 0;
         for (int i = 0; i < k; i++) {
             windowSum += arr[i];
@@ -14,7 +14,7 @@ public class four {
 
         int maxSum = windowSum;
 
-        // Slide the window
+       
         for (int i = k; i < n; i++) {
             windowSum += arr[i] - arr[i - k];
             maxSum = Math.max(maxSum, windowSum);
