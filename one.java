@@ -1,4 +1,4 @@
-public class one{
+public class q2{
     public static int[] buildPrefixSum(int[] arr) {
         int[] prefixSum = new int[arr.length];
         prefixSum[0] = arr[0];
