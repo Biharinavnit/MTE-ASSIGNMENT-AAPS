@@ -1,4 +1,4 @@
-public class eight {
+public class q10 {
     private static String swap(String str, int i, int j) {
         char[] ch = str.toCharArray();
         char temp = ch[i];
